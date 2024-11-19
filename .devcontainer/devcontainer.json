@@ -1,0 +1,26 @@
+{
+  "name": "IOT Dev Container",
+  "build": {
+    "dockerfile": "Dockerfile"
+  },
+  "customizations": {
+    "vscode": {
+      "extensions": [
+        "ms-vscode.go",
+        "ms-python.python",
+        "esbenp.prettier-vscode",
+        "dbaeumer.vscode-eslint",
+        "streetsidesoftware.code-spell-checker",
+        "octref.vetur",
+        "Vue.volar"
+      ],
+      "settings": {
+        "terminal.integrated.shell.linux": "/bin/bash"
+      }
+    },
+    "remoteEnv": {
+      "CODESPACES_PUBLIC_PORTS": "8080"
+    }
+  },
+  "postCreateCommand": "go version && python --version && node --version"
+}
