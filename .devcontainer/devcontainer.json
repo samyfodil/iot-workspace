@@ -17,9 +17,6 @@
       "settings": {
         "terminal.integrated.shell.linux": "/bin/bash"
       }
-    },
-    "remoteEnv": {
-      "CODESPACES_PUBLIC_PORTS": "8080"
     }
   },
   "postCreateCommand": "go version && python --version && node --version"

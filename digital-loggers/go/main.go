@@ -8,8 +8,6 @@ import (
 	"strings"
 	"time"
 
-	//"time"
-
 	"github.com/icholy/digest"
 	"github.com/rs/cors"
 )
